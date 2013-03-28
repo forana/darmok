@@ -9,21 +9,21 @@ Usages
 
 darmok.py train &lt;input file&gt; &lt;output file&gt;
 
-	Builds up a data model using the input file and writes it as JSON to the output file.
+Builds up a data model using the input file and writes it as JSON to the output file.
 
-	Example:
-		<pre>darmok.py train names.txt names.json</pre>
+Example:
+	<pre>darmok.py train names.txt names.json</pre>
 
 darmok.py generate &lt;input file&gt; [&lt;minimum length&gt; [&lt;maximum length&gt; [&lt;count&gt;]]]
 
-	Using the data model represented in the input file to generate one or more names.
-	The names will be a minimum of 3 characters long, unless another is specified.
-	The names will be a maximum of 32 characters long, unless another is specified.
-	By default 1 will be generated, unless count is specified.
+Using the data model represented in the input file to generate one or more names.
+The names will be a minimum of 3 characters long, unless another is specified.
+The names will be a maximum of 32 characters long, unless another is specified.
+By default 1 will be generated, unless count is specified.
 
-	Example:
-		<pre>darmok.py generate names.json 2 12 5</pre>
+Example:
+	<pre>darmok.py generate names.json 2 12 5</pre>
 
 darmok.py help
 
-	Shows this message.
+Shows this message.
