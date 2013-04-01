@@ -13,8 +13,6 @@ Darmok = {
 		var raw = JSON.parse(r.responseText);
 		this.matrix = raw.data;
 		this.segmentLength = raw.segmentLength;
-		console.log(raw);
-		console.log(this);
 
 		this.genString = function(min, max, exclusions) {
 			var res;
@@ -27,7 +25,6 @@ Darmok = {
 				do {
 					var subMatrix = this.matrix;
 					for (var i=0; i < previousLetters.length; i++) {
-						console.log(subMatrix);
 						subMatrix = subMatrix[previousLetters[i]];
 					}
 					var sum = 0;
