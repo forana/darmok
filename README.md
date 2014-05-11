@@ -1,3 +1,8 @@
+<h2 style="color: red">Attention!</h2>
+This is only and clunky and not too much fun to use. There's a full JS rewrite that doesn't suck: https://github.com/forana/darmok-js
+
+<hr/>
+
 darmok
 ==========
 Simple python utility for generating data models for name generation from a list of names. Can also use this model to generate names.
